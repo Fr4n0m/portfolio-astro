@@ -1,6 +1,10 @@
 import React from "react";
 import "../styles/styles.css";
 import Header from "../components/header/HeaderComponent";
+import ScrollUp from "../components/scroll-button/ScrollUpComponent";
+import Hero from "../components/hero/HeroComponent";
+import LinksInfo from "../components/links-info-section/LinksInfoComponent";
+import InProgress from "../components/inprogress/InProgressComponent";
 
 const App = () => {
   return (
@@ -8,71 +12,13 @@ const App = () => {
       <main>
         <Header />
 
-        <a href="#header">
-          <button className="scroll-button">
-            <div className="scroll-button-box">
-              <span className="button-elem">
-                <img src="/assets/icons/scrollup.svg" alt="Scroll up" />
-              </span>
-              <span className="button-elem">
-                <img src="/assets/icons/scrollup.svg" alt="Scroll up" />
-              </span>
-            </div>
-          </button>
-        </a>
+        <ScrollUp />
 
-        <div className="background">
-          <img src="/assets/images/background.webp" alt="Background" />
-          <div className="text">
-            <h2>Hi! I'm Fran.</h2>
-            <h3>a full stack web developer</h3>
-          </div>
-        </div>
+        <Hero />
 
-        <section>
-          <div className="info">
-            <article className="ai">
-              <img src="/assets/images/ai.webp" alt="Ai" />
-              <h1>AI</h1>
-            </article>
+        <LinksInfo />
 
-            <article className="articles">
-              <img src="/assets/images/articles.webp" alt="Articles" />
-              <h1>Articles</h1>
-            </article>
-
-            <article className="github">
-              <img src="/assets/images/github.webp" alt="Github" />
-              <h1>GitHub</h1>
-            </article>
-
-            <article className="mobile">
-              <img src="/assets/images/mobile.webp" alt="Mobile" />
-              <h1>Mobile</h1>
-            </article>
-          </div>
-
-          <div className="in-progress">
-            <h1>in progress...</h1>
-            <div className="article-container">
-              {Array(4)
-                .fill()
-                .map((_, index) => (
-                  <article key={index}>
-                    <div className="card">
-                      <h1>FILMAX</h1>
-                      <img src="/assets/images/filmax.webp" alt="filmax" />
-                      <p>
-                        Filmax is a film website project for codeSpace and it's
-                        my first time with HTML & CSS ;)
-                      </p>
-                      <button className="view-more-button"> VIEW MORE </button>
-                    </div>
-                  </article>
-                ))}
-            </div>
-          </div>
-        </section>
+        <InProgress />
       </main>
 
       <footer>
