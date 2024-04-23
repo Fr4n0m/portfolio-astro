@@ -6,7 +6,7 @@ const SearchInput = () => {
       <input
         className="input"
         type="text"
-        autocomplete="off"
+        autoComplete="off"
         name="text"
         placeholder="Search"
       />

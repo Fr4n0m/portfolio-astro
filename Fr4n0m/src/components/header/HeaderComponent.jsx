@@ -6,7 +6,10 @@ import SearchInput from "./search-input/SearchInputComponent";
 const Header = () => {
   return (
     <>
-      <header id="header" className="header justify-around items-center">
+      <header
+        id="header"
+        className="header absolute flex justify-around items-center w-full"
+      >
         <Logo />
 
         <HeaderNav />

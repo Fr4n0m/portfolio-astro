@@ -1,9 +1,4 @@
 .header {
-    position: absolute;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    height: fit-content;
 
     background-color: var(--color-transparent);
 
@@ -11,15 +6,13 @@
         width: 80px;
         height: 80px;
         border-radius: 50%;
-        margin-left: 160px;
-        padding: 20px;
+        padding: 15px;
     }
 
     & ul {
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-left: 150px;
 
     }
 
@@ -128,10 +121,8 @@
     }
 
     .input {
-        position: absolute;
         width: 200px;
         height: 5px;
-        margin: 43px 0 0 1360px;
         border: none;
         outline: none;
         border-radius: 15px;
