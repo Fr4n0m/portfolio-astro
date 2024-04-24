@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="footer-logo mb-20 mr-20">
             <img src="/assets/images/logo.webp" alt="Fran" />
             <h2 className="text-nowrap">Francisco Rodríguez © 2023</h2>
-            <a href="">About me</a>
+            <a href="/about-me">About me</a>
           </div>
 
           <div className="info-container">

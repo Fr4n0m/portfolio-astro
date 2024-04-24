@@ -12,7 +12,7 @@ const HeaderNav = () => {
             <span className="bottom-key-2"></span>
           </li>
         </a>
-        <a className="header-nav-link" href="">
+        <a className="header-nav-link" href="/about-me">
           <li>
             <span className="top-key"></span>
             <span className="text">About</span>
