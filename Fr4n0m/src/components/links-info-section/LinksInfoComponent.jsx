@@ -3,7 +3,7 @@ import React from "react";
 const LinksInfo = () => {
   return (
     <>
-      <section>
+      <section className="w-screen">
         <div className="info">
           <article className="ai">
             <img src="/assets/images/ai.webp" alt="Ai" />

@@ -3,23 +3,23 @@
     & img {
         box-shadow: 0 0 700px var(--color-secondary);
     }
+}
 
-    .text {
+.text {
 
-        & h2 {
-            font-family: var(--font-02);
-            font-size: var(--font-size-70);
-            text-shadow: 0 0 10px var(--color-black);
-            color: var(--color-white);
-            text-wrap: nowrap;
-        }
+    & h2 {
+        font-family: var(--font-02);
+        font-size: var(--font-size-70);
+        text-shadow: 0 0 10px var(--color-black);
+        color: var(--color-white);
+        text-wrap: nowrap;
+    }
 
-        & h3 {
-            font-family: var(--font-03);
-            font-size: var(--font-size-20);
-            text-shadow: 0 0 10px var(--color-black);
-            color: var(--color-white);
-            margin-top: 20px;
-        }
+    & h3 {
+        font-family: var(--font-03);
+        font-size: var(--font-size-20);
+        text-shadow: 0 0 10px var(--color-black);
+        color: var(--color-white);
+        margin-top: 20px;
     }
 }

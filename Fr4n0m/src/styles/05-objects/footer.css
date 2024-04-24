@@ -3,14 +3,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 150px;
-    width: 100%;
     margin: 0 0 0 0;
+    width: screen;
 
     .footer-logo {
         display: flex;
         flex-direction: column;
-        margin: -100px 0 0 -350px;
 
         & img {
             width: 100px;
@@ -21,7 +19,7 @@
 
         & h2 {
             font-family: var(--font-03);
-            font-size: var(--font-size-22);
+            font-size: var(--font-size-18);
             letter-spacing: 0.5px;
             font-weight: bold;
             margin-top: 30px;
@@ -51,7 +49,6 @@
             .more-buttons {
                 display: flex;
                 flex-direction: column;
-                margin: 0 20px 0 150px;
 
                 &::before {
                     content: '';
@@ -145,7 +142,7 @@
         display: flex;
         flex-direction: column;
         align-items: left;
-        margin: -170px 0 0 200px;
+        margin: -170px 0 0 160px;
 
         & h1 {
             font-family: var(--font-02);
