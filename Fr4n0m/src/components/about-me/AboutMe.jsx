@@ -1,4 +1,5 @@
 import React from "react";
+import "../../styles/styles.css";
 import Header from "../header/HeaderComponent";
 import ScrollUp from "../scroll-button/ScrollUpComponent";
 import Footer from "../footer/FooterComponent";
